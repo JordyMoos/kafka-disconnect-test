@@ -16,3 +16,11 @@ docker-compose stop kafka
 ```
 
 Check that "Finished!" is never reached not printed in the logs
+
+![Script does not continue after writer.Close()](./img/waiting.png)
+
+
+Afterwards you can clean up the environment with
+```
+docker-compose down -v
+```
