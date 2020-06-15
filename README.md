@@ -15,7 +15,7 @@ When noted in log: Stop kafka
 docker-compose stop kafka
 ```
 
-Check that "Finished!" is never reached not printed in the logs
+Check that "Finished!" is never reached and printed in the logs
 
 ![Script does not continue after writer.Close()](./img/waiting.png)
 
